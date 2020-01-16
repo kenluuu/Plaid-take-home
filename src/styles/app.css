@@ -1,0 +1,258 @@
+/* ********** first section styles ************** */
+
+#first-section {
+    background-image: url('../assets/hero.png');
+    background-size: cover;
+    height: 550px;
+    background-color: #35A3BD;
+}
+
+#hero-img {
+    width: 70%;
+   
+}
+
+.first-section-text {
+    color: white;
+    font-weight: lighter;
+}
+#first-section h1 {
+    font-size: 30px;
+    margin-left: 225px;
+    max-width: 400px;
+    
+}
+
+#first-section p {
+    
+    margin-left: 225px;
+    max-width: 250px;
+    margin-top: 20px;
+    
+}
+
+#first-section button {
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 225px;
+    padding: 15px 30px;
+    color: #3BB8B8;
+    font-size: 15px;
+    background-color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+
+/* ********** second section styles ************** */
+
+#second-section {
+    background-color: #F7F7F7;
+    height: 90px;
+}
+
+#second-section img{
+    height: 35px;
+}
+
+/* ********** third section styles ************** */
+
+#third-section {
+    padding: 100px 0;
+}
+
+#third-section h1{
+    font-weight:  lighter;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#third-section p {
+    align-self: center;
+    color: gray;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    max-width: 750px;
+    text-align: center;
+    
+}
+
+#third-section img {
+    height: 225px;
+}
+#gray-line {
+    background-color: rgba(0,0, 0, 0.2);
+    height: 5px;
+    flex: 1;
+    margin: 0 20px;
+}
+
+#pink-line {
+    background-color: #F49082;
+    height: 5px;
+    flex: 1;
+    margin: 0 20px;
+}
+
+
+/* ********** fourth section styles ************** */
+
+#fourth-section {
+    background-image: linear-gradient(to right,#401C71 , #3AB5B8);
+    padding: 100px 0;
+}
+
+#fourth-section h1 {
+    color: white;
+}
+
+#fourth-section p {
+    color: rgba(255,255, 255, 0.75);
+}
+
+#fourth-section h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+
+#fourth-section p {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.sec-4-mar {
+    margin-bottom: 20px;
+}
+
+
+.sec-four-space {
+    width: 100px;
+}
+
+#fourth-section img{
+    width: 100%;
+}
+
+#sec-4-line {
+    background-color: rgba(255,255, 255, 0.3);
+    height: 1px;
+    margin: 60px 0;
+}
+
+
+
+/* ********** fifth section styles ************** */
+
+#fifth-section {
+    padding: 100px 0;
+}
+
+#fifth-section h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#fifth-section p {
+    color: gray;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#fifth-sec-box {
+    border: 2px solid rgb(168, 240, 238);
+    margin: auto;
+    max-width: 550px;
+    border-radius: 3px;
+}
+
+#fifth-sec-box p {
+    display: inline-block;
+    color: black;   
+    margin: 10px 10px;
+}
+
+#fifth-sec-box span {
+    color: #3BB8B8;
+    font-weight: bold;
+}
+
+
+/* ********** sixth section styles ************** */
+
+#sixth-section {
+    background-color: #DFD8D4;
+}
+
+#sixth-section img{
+    width: 55vw;
+    max-height: 500px;
+}
+
+.sec-six-text-container {
+    position: absolute;
+    width: 400px;
+    left: 40vw;
+}
+
+#sixth-section p {
+    color: rgba(0,0, 0, 0.6);
+    margin-bottom: 25px;
+}
+
+#sixth-section span {
+    color: rgba(0,0, 0, 0.5);
+    font-size: 12px;
+}
+
+/* ********** seventh section styles ************** */
+
+#seventh-section {
+    background-image: url('../assets/world.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 475px;
+}
+
+#seventh-section h1 {
+    align-self: center;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#seventh-section p {
+    align-self: center;
+    margin-top: 20px;
+    color: rgba(0,0, 0, 0.6);
+    font-size: 13px;
+    
+}
+
+#sec-seven-box {
+    align-self: center;
+    display: flex;
+    border: 2px solid rgb(168, 240, 238);
+    margin-top: 30px;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+#sec-seven-box input{
+    border: 0;
+    padding: 10px 10px;
+    width: 200px;
+}
+
+#sec-seven-box button {
+    color: white;
+    background-color: #3BB8B8;
+    border-radius: 3px;
+    border: 0;
+    padding: 0 20px;
+}
+
+
+
